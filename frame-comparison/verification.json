@@ -1,0 +1,27 @@
+{
+  "independentlyVerifiedPngs": 192,
+  "summary": {
+    "two": {
+      "count": 96,
+      "nativeCalls": {
+        "2": 96
+      },
+      "totalNative": 192,
+      "minMs": 37.8,
+      "medianMs": 71.5,
+      "maxMs": 219.5
+    },
+    "adaptive": {
+      "count": 96,
+      "nativeCalls": {
+        "4": 59,
+        "3": 18,
+        "5": 19
+      },
+      "totalNative": 385,
+      "minMs": 46.4,
+      "medianMs": 81.0,
+      "maxMs": 225.1
+    }
+  }
+}

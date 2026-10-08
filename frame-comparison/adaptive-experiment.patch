@@ -1,0 +1,25 @@
+--- a/apps/desktop/src/preview/DesktopBrowserHost.ts
++++ b/apps/desktop/src/preview/DesktopBrowserHost.ts
+@@ -196,17 +196,14 @@
+                     pending = Promise.allSettled([
+                       screenshotRequest,
+                       Promise.resolve().then(async () => {
+-                        await webContents.capturePage(undefined, {
+-                          stayHidden: true,
+-                          stayAwake: false,
+-                        });
+-                        requireCurrent(signal);
+-                        if (!screenshotSettled) {
+-                          await webContents.capturePage(undefined, {
++                        do {
++                          const copy = await webContents.capturePage(undefined, {
+                             stayHidden: true,
+                             stayAwake: false,
+                           });
+-                        }
++                          requireCurrent(signal);
++                          if (copy.isEmpty()) break;
++                        } while (!screenshotSettled);
+                       }),
+                     ]);
+                     // Native capture only requests paint; its unused image must
