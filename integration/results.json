@@ -1,0 +1,460 @@
+{
+  "date": "2026-10-08",
+  "platform": {
+    "os": "macOS 15.7.4",
+    "arch": "arm64",
+    "electron": "44.4.2",
+    "chromium": "152.0.7977.130"
+  },
+  "upstreamBase": "805967a878e6804d58c151f29d2a3d0a06828fd1",
+  "path": "callAcpMcpTool -> authenticated MCP HTTP -> snapshot handler -> broker -> ServerBrowser -> SessionControl -> ServerBrowserPage -> Playwright -> desktop fd channel -> DesktopBrowserHost -> production renderer/preload lease -> CDP screenshot with native frame requests",
+  "fixtureSetup": "A test-only control socket in the built server creates a synthetic thread, issues a scoped credential, and opens its tab. No provider/model turn started. Snapshot handling and capture code are unmodified by the fixture harness.",
+  "before": {
+    "control": "Same full application with agent screenshot interception disabled, restoring the original CDP forwarding path",
+    "elapsedMs": 15049.661,
+    "snapshotError": {
+      "_tag": "PreviewAutomationTimeoutError",
+      "operation": "snapshot",
+      "failureCount": 1,
+      "message": "Preview automation snapshot timed out after 15000ms."
+    },
+    "subsequentStatusHasHost": false,
+    "captureLeaseEvents": 0,
+    "guestOffscreen": true
+  },
+  "after": [
+    {
+      "window": "visible",
+      "captures": [
+        {
+          "marker": 1,
+          "elapsedMs": 93.181,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 2,
+          "elapsedMs": 54.067,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 3,
+          "elapsedMs": 55.789,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 4,
+          "elapsedMs": 55.27,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 5,
+          "elapsedMs": 65.499,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        }
+      ],
+      "pixels": [
+        {
+          "marker": 1,
+          "pixel": [
+            51,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 2,
+          "pixel": [
+            57,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 3,
+          "pixel": [
+            63,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 4,
+          "pixel": [
+            69,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 5,
+          "pixel": [
+            77,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "window": "covered",
+      "captures": [
+        {
+          "marker": 1,
+          "elapsedMs": 66.675,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 2,
+          "elapsedMs": 64.195,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 3,
+          "elapsedMs": 59.664,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 4,
+          "elapsedMs": 63.654,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 5,
+          "elapsedMs": 68.018,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        }
+      ],
+      "pixels": [
+        {
+          "marker": 1,
+          "pixel": [
+            51,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 2,
+          "pixel": [
+            57,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 3,
+          "pixel": [
+            63,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 4,
+          "pixel": [
+            69,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 5,
+          "pixel": [
+            77,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "window": "hidden",
+      "captures": [
+        {
+          "marker": 1,
+          "elapsedMs": 65.425,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 2,
+          "elapsedMs": 60.463,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 3,
+          "elapsedMs": 56.825,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 4,
+          "elapsedMs": 44.252,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 5,
+          "elapsedMs": 55.438,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        }
+      ],
+      "pixels": [
+        {
+          "marker": 1,
+          "pixel": [
+            51,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 2,
+          "pixel": [
+            57,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 3,
+          "pixel": [
+            63,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 4,
+          "pixel": [
+            69,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 5,
+          "pixel": [
+            77,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "window": "minimized",
+      "captures": [
+        {
+          "marker": 1,
+          "elapsedMs": 73.171,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 2,
+          "elapsedMs": 59.595,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 3,
+          "elapsedMs": 64.642,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 4,
+          "elapsedMs": 59.043,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        },
+        {
+          "marker": 5,
+          "elapsedMs": 57.005,
+          "placementRestored": true,
+          "statePreserved": true,
+          "leasesBalanced": true,
+          "statusAvailable": true
+        }
+      ],
+      "pixels": [
+        {
+          "marker": 1,
+          "pixel": [
+            51,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 2,
+          "pixel": [
+            57,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 3,
+          "pixel": [
+            63,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 4,
+          "pixel": [
+            69,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        },
+        {
+          "marker": 5,
+          "pixel": [
+            77,
+            99,
+            175
+          ],
+          "size": [
+            1280,
+            800
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No model/provider turn was started. Calls used the production MCP terminal bridge and HTTP endpoint with a scoped test credential.",
+    "Windows, Linux, locked displays, and a zoom/DPR matrix were not tested.",
+    "A deadline does not cancel Electron/CDP work. A still-pending capture reserves its guest slot to prevent accumulation."
+  ]
+}

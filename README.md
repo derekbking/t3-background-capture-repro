@@ -1,5 +1,7 @@
 # Background screenshot reproduction
 
+[Full-app MCP verification of the proposed fix](integration/README.md) — 20/20 captures, including hidden and minimized windows. The original experiment below remains unchanged.
+
 Synthetic Electron demonstration of the capture mechanism in [T3 Code #16567](https://github.com/pingdotgg/t3code/issues/16567).
 
 ```sh
